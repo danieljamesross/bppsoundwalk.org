@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<title>BPP Soundwalk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3-edited.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/index.css">
+
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#app" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-mobile"></i> APP</a>
+    <a href="#workshops" class="w3-bar-item w3-button
+				w3-hide-small"><i class="fa fa-th"></i> WORKSHOPS</a>
+    <a href="#process" class="w3-bar-item w3-button w3-hide-small"><i class="fa
+									     fa-cog"></i>
+      PROCESS</a>
+        <a href="#history" class="w3-bar-item w3-button w3-hide-small"><i
+    class="fa fa-info"></i> FYI</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i
+    class="fa fa-user"></i> ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i
+    class="fa fa-envelope"></i> CONTACT</a>
+    <!--
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+    -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#app" class="w3-bar-item w3-button" onclick="toggleFunction()">APP</a>
+    <a href="#workshops" class="w3-bar-item w3-button"
+       onclick="toggleFunction()">WORKSHOPS</a>
+    <a href="#process" class="w3-bar-item w3-button"
+       onclick="toggleFunction()">PROCESS</a>
+            <a href="#history" class="w3-bar-item w3-button" onclick="toggleFunction()">FYI</a>
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img src="img/bpp soundwalk decor.png" width="100%" style="align:center;" />
+  </div>
+</div>
+
+<!-- Container (App Section) -->
+<div class="w3-content w3-container w3-padding-64" id="app">
+  
+  <h3 class="w3-center">THE BECKENHAM PLACE PARK SOUNDWALK</h3>
+  <p class="w3-center"><em>Soundlab presents:</em><br />
+    The Beckenham Place Park Soundwalk</p>
+  <p  class="w3-center">SoundLab has created a free app to take you on an
+  immersive soundwalk around Beckenham Place Park. It is based on stories
+  gathered and shared by locals. </p>
+  
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col w3-half">
+      <img src="img/app-phone.png" width="80%" alt="BPP Soundwalk App" />
+      <br />
+    </div>
+    <div class="w3-col w3-half w3-left-align">
+      <h5>
+	Download the app free from the <a
+	href="https://play.google.com/store/apps/details?id=org.bpp.sound.walk&rdid=org.bpp.sound.walk" target="_blank">Google Play Store</a> and
+	<a href="https://itunes.apple.com/us/app/bpp-soundwalk/id1268630589" target="_blank">iTunes</a>.
+      </h5>
+      <h5>Featuring:</h5>
+      <ul class="w3-left-align">
+	<li>9 sonic memories of Beckenham Place Park</li>
+	<li>Interactive buttons to control the audio players</li>
+	<li>Automatic triggering of audio using GPS</li>
+	<li>Free download</li>
+	<li>How-to-use audio instructions on the Mansion button</li>
+	<li>Help and credits sections</li>
+	<li>Beautiful bespoke design</li>
+	<li>Seekable playbars</li>
+      </ul>
+      <h5 class="w3-center">
+	<a href="https://play.google.com/store/apps/details?id=org.bpp.sound.walk&rdid=org.bpp.sound.walk"
+	    target="_blank" class="w3-button" style="border:2px solid black;border-radius: 12px;width:70%;">
+      <i class="fa fa-android"></i> Download for Android Device</a></h5>
+	<h5 class="w3-center">
+	  <a href="https://itunes.apple.com/us/app/bpp-soundwalk/id1268630589"
+	     target="_blank" class="w3-button"
+	     style="border:2px solid black;border-radius: 12px;width:70%;">
+	<i class="fa fa-apple"></i> Download for Apple Device</a></h5>
+    </div>
+  </div>
+</div>
+  
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-bppblue w3-wide">WORKSHOPS</span>
+  </div>
+</div>
+
+<!-- Container (Workshops Section) -->
+<div class="w3-content w3-container w3-padding-64" id="workshops">
+  <h3 class="w3-center">WORKSHOPS</h3>
+  <p class="w3-center">Our first workshop took place on Saturday the 1st July
+  2017. It introduced our volunteers to field recordings using audio recording
+  equipment, absorbing the atmosphere of Beckenham Place Park. Our second
+  workshop the following week, 9th July, involved a series of interviews. The volunteers used their new recording skills to interview locals whom shared their personal stories of the park. The process was enriching and enlighting for everyone.</p>
+  <p class="w3-center"><em>Here are some photos from our workshops<br> Click on
+  the images to make them bigger</em></p><br />
+  
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="img/16-20170701_150634.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop1">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/18-20170701_153439.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop2">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/17-20170701_152928.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop3">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/06-DSC_0232.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop4">
+    </div>
+    
+    
+  </div>
+  
+  <!-- start Row 2 -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="img/03-DSC_0226.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop5">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/11-DSC_0258.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop6">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/02-DSC_0222.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop7">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/08-DSC_0239.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop8">
+    </div>
+    </div>
+    <div class="w3-row-padding w3-center">
+      <button id="loadmore" onclick="morepics()"
+      class="w3-button w3-center w3-section w3-light-grey"
+      style="margin-top:64px; align:center;">LOAD
+      MORE</button><br />
+    </div>
+    
+    
+  <!-- ROW 3 , writing of experiences -->
+  
+  <div id="hidden" style="display:none;">
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop9">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop10">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop11">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop12">
+    </div>
+    
+    
+  </div>
+  
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="img/5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop13">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop14">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop15">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop16">
+    </div>
+  </div>
+  
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="img/9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop17">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/10.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Workshop18">
+      
+    </div>
+    </div>
+    <div class="w3-row-padding w3-center">
+      <button id="hideagain" onclick="hidepics()"
+      class="w3-button w3-center w3-section w3-light-grey"
+      style="margin-top:64px; align:center;">HIDE PICS</button><br />
+    </div>
+    
+    </div>
+<!--
+<div class="w3-row-padding w3-center">
+  <div class="w3-col m3">
+    <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+  </div>
+  
+  <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+</div>
+</div>
+-->
+
+
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-bppblue w3-wide">PROCESS</span>
+  </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="process">
+  <h3 class="w3-center">PROCESS</h3>
+  <p class="w3-center">Taking on the material collated Elena Terrones-Huet, our graphic designer, put together some illustrutive pieces in reference to the compositions. The symbiotic relationship of music and visual constructions represent the fabulously vivid story telling of our volunteers.</p>
+  <p class="w3-center"><em>Here are some illustrations that will appear in our
+      printed journal.<br> Click on the images to make them bigger</em></p>
+  <br />
+  
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="img/conkers.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Conkers">
+    </div>
+    <div class="w3-col m3">
+      <img src="img/bluebells.png" style="width:100%;margin-left:25%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Bluebells">
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="img/child hood v3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Childhood">
+    </div>
+    <div class="w3-col m3">
+      <img src="img/A4 Steve found a machine gun.jpg" style="width:100%"
+      onclick="onClick(this)" class="w3-hover-opacity" alt="War Stories">
+    </div>
+  </div>
+  </div>
+  <br />
+
+  <!-- 4th Parallax Image with Portfolio Text -->
+  <div class="bgimg-4 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-bppblue w3-wide">DID YOU KNOW?</span>
+    </div>
+  </div>
+  
+<!-- Container (History Section) -->
+<div class="w3-content w3-container w3-padding-64" id="history">
+  <div class="w3-row w3-section  w3-padding-32">
+    <h3 class="w3-center">FUN FACTS ABOUT BPP</h3>
+    <div class="w3-col w3-third w3-padding-32 w3-container">
+      <img src="img/long-flower.png" style="width:100%" />
+    </div>
+    <div class="w3-col w3-twothird w3-container">
+      <p class="w3-left-align">Here are some fun facts you may not know about Beckenham
+	Place Park compiled by local historian, Rod Reed.</p>
+      <ol><li>In the first century AD you would have seen Roman cavalry and
+	  soldiers on the Roman military road running between the Mansion and
+	  Foxgrove Road linking London to the foundries of the Lewes area in
+	  Sussex.</li>
+	<li>Celtic villagers would have worked farms and used the streams that run
+	  through the park such as the Ravensbourne.</li>
+	<li>The Cator family lived at Beckenham Place. Their ancestors were brought up as Quakers and made the successful journey from persecuted religious minority to Lords of the Manor of Beckenham.</li>
+	<li>John Cator was unseated as MP for Ipswich on account of bribery - an
+	  early expenses scandal! However, he twice more represented constituents elsewhere in Parliament.</li>
+	<li>Beckenham Place would have seen fox hunts and the pursuit of game in the nineteenth century and was surrounded by beautiful countryside.</li>
+	<li>The famous lexicographer, Dr. Johnson, described Beckenham Place as <em>"one of the finest places at which I was ever a guest and where I find more and more hospitable welcome"</em>.</li>
+	<li>The Cator family cashed in on the nineteenth century national railway
+	  boom and the popularity of the recently re-located Great Exhibition at
+	  Crystal Place by selling off land for a profit, allowing railways through the area.</li>
+	<li>There was a strict initial agreement that trains could only stop at Beckenham between 1.30pm and 2pm on Sundays <em>"to prevent annoyance to his estate and other evil consequences to himself and others"</em>. It was designed to stop day trippers to Beckenham!</li>
+	<li>The Mansion has an important link with the Tate Gallery as the Cator timber merchants were based on the site where the Tate Modern now stands.</li>
+	<li>Many of Beckenham's street names and even older trees date from the Cator times.</li>
+	<li>The Cators put money and land aside for schools, church building and poor housing.</li>
+	<li>The Mansion was used as a rehab clinic for alcolholics and drug users at the start of the twentieth century.</li>
+	<li>Italian prisoners of war were camped in the parkland where they grew their own vegetables.</li>
+	<li>Beckenham Place Park is closely associated with the founder of the RHS as John Cator's father-in-law was Peter Colinson, who was a well known Quaker plant hunter and who left an horticultural library of information to the Cators. The library covering many subjects was organised by Dr. Johnson.</li>
+	<li>David Bowie carried our rehearsals for his Arts Lab project in the
+	  1960s and would escape into Beckenham Place Park when fans gathered at his
+	  door in Haddon Hall, Southend Road. This was around the time he became an international star with <em>Ziggy Stardust</em>.</li>
+	<li>A large house from the Elizabethan period was noted at Stumps Hill
+	  possibly under the current house or under the car park.
+      </ol>
+      
+    </div>
+  </div>
+</div>
+
+
+
+   <!-- 4th Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-bppblue w3-wide">ABOUT</span>
+    </div>
+  </div>
+  
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT</h3>
+  <div class="w3-row w3-section  w3-padding-32">
+    <h5 class="w3-center">CREATION</h5>
+    <div class="w3-col w3-third w3-padding-32 w3-container">
+      <img src="img/soundlab_logo.png" width="80%" />
+    </div>
+    <div class="w3-col w3-twothird" >
+      <p class="w3-left-align">The SoundLab is:
+	<ul class="w3-left-align">
+	  <li>James C. Wilkie - <em>composition, writing &amp; workshop facilitaing</em></li>
+	  <li>Daniel James Ross - <em>composition, code &amp; workshop facilitaing</em></li>
+	  <li>Elena Terrones-Huet - <em>design, photography &amp; animation</em></li>
+	</ul>
+      </p>
+    </div>
+  </div>
+
+    <div class="w3-row w3-section">
+      <h5 class="w3-center">WITH THANKS</h5>
+  <p class="w3-center">
+    Special thanks is due to Syndey Thornbury, Tilly Fowler, and the Copeland Estate for their vital
+    support behind the scenes. <br />
+      <img src="img/frond.png" style="width:10%" />
+  </p>
+
+  </div>
+  <div class="w3-row w3-section">
+    <h5 class="w3-center">OUR AMAZING VOLUNTEERS</h5>
+     <div class="w3-col m8 w3-padding-32" >
+       <p class="w3-left-align" style="padding-top: 0px;">
+	 These are the people that made the project more than just a
+	 soundwalk. Their time, dedication and enthusiasm shaped it
+	 into a unique community experience.
+       </p>
+       <p class="w3-left-align">
+	 In no particular order, we would like to thank: Carol Ann Waters, Cherrill Hicks, Chris Crouch,
+	 John Ashbridge, Simon Brand, Sally Cinnamon, Joe Flanagan, Michael
+	 Flanagan, Richard Bentley, Sharon Williams, Fiona McLean, Jane Howard,
+	 Glenys Crane, Ian Smith, Trudi Bosberry and especially Tracy Bently.
+       </p>
+     </div>
+     <div class="w3-col m4 w3-container w3-padding-64">
+       <img src="img/workshop-montage-01.jpg" width="100%"
+       onclick="onClick(this)" class="w3-hover-opacity" alt="Some of our Amazing Volunteers" />
+     </div>
+  </div>
+  <div class="w3-row w3-section">
+    <h5 class="w3-center">OUR SPONSORS</h5>
+     <p class="w3-center">
+       We would also like to thank our sponsors: Lewisham Council, Heritage
+    Lottery Fund, Santander, and Goldsmiths University.
+
+       <div class="w3-row w3-center" style="background-color:#fff; padding: 0.5em;">
+    <img src="img/bluelogos.jpg" alt="logos" width="100%" />
+       </div>
+            </p>
+</div></div>
+
+
+  
+  <!-- 4th Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-bppblue w3-wide">CONTACT</span>
+    </div>
+  </div>
+  
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">FIND THE PARK</h3>
+  <p class="w3-center"><em>You can find us at The Mansion</em></p>
+  
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large" style="width:100%;height:280px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge
+		  w3-margin-right"></i> Address:<p style="padding-left: 8%;">The Mansion<br
+		  />Beckenham Place Park,<br />Beckenham<br />BR3 1SY<br /></p>
+	<!-- <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge
+	w3-margin-right"></i> Phone: +00 151515<br> -->
+	
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge
+    w3-margin-right"></i> Email: <a href="mailto:soundlab@bppsoundwalk.org">soundlab@bppsoundwalk.org</a><br />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa
+fa-arrow-up w3-margin-right"></i>To the top</a>
+
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/events/313452222391571" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/soundlab_/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    -->
+  </div>
+  <div style="background-color:#fff">
+    <img src="img/bluelogos.jpg" alt="logos" width="80%" />
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+  title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Contact the <a href="mailto:soundlab@bppsoundwalk.org" title="webmaster" target="_blank" class="w3-hover-text-green">Webmaster</a></p>
+</footer>
+  
+<script type="text/javascript">
+var pics = document.getElementById('hidden');
+var loadButt = document.getElementById('loadmore');
+var hideButt = document.getElementById('hideagain');
+
+function morepics() {   
+    pics.style.display = 'block';
+    loadButt.style.display = 'none';
+    hideButt.style.display = 'inline';
+};
+
+function hidepics() {
+    pics.style.display = 'none';
+    loadButt.style.display = 'inline';
+    hideButt.style.display = 'none';
+};
+    </script>  
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(51.418597, -0.018597);
+  var mapOptions= {
+    center:myCenter,
+    zoom:14, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script async defer
+ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS2hCfELzMCczHUTHWuSU7lFMJ846G02o&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
